@@ -6,7 +6,7 @@ class App < Sinatra::Base
   original_string = params[:reverse]
   @reversed_string = original_string.reverse
  
-  erb @reversed_string
+  # erb :reversed
 end
   
   get "/" do
