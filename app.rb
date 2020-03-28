@@ -7,6 +7,7 @@ post '/reverse' do
   @reversed_string = original_string.reverse
  
   erb :reversed
+  @reversed_string
 end
 
 get "/" do
